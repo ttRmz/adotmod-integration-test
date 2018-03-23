@@ -248,7 +248,6 @@ hr{
 }
 
 .parameters-input:focus{
-    border: solid 1px #3fd48b;
     outline: none;
 }
 
@@ -262,6 +261,6 @@ hr{
 }
 
 .parameters-icon img{
-    width: 100%;
-    height: auto;
+    width: auto;
+    height: 100%;
 }
