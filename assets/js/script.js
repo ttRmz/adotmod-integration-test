@@ -14,3 +14,8 @@ function Change(obj, evt, iconID)
        icon.src = "assets/images/settings.png";
     }
 }
+
+function ClearInput(i){
+    document.querySelector("#capping-parameters"+i).value="";
+    document.getElementById('icons'+i).src = "assets/images/settings.png";
+}
